@@ -40,3 +40,4 @@ public/videos/*.mp4
 # IDE
 .vscode
 .idea
+.vercel

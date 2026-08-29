@@ -24,7 +24,6 @@ export const about = {
   affiliations: [
     "Riverbeats Dance",
     "Festival Squad",
-    "Define Everything Future",
     "Iris Presents",
   ],
 };
