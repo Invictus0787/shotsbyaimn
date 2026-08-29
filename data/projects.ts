@@ -180,7 +180,7 @@ export const projects: Project[] = [
     medium: "Photography",
     cover: {
       src: "/images/projects/andy-bruh/cover.png",
-      alt: "Andy Bruh ripping through vinyl cuts, original production, and bass-heavy hip-hop at Aisle 5",
+      alt: "Andy Bruh at the decks — ANDY BRUH on the LED wall, Aisle 5",
       aspect: "landscape",
     },
     description: "Selected frames from Andy Bruh's Aisle 5 set.",

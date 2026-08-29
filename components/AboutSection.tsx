@@ -25,9 +25,21 @@ export default function AboutSection() {
               alt={about.portrait.alt}
             />
           </div>
-          <div className="mt-3 flex items-center justify-between text-micro tracking-widest2 uppercase text-ink-500">
-            <span>PORTRAIT</span>
-            <span>ATLANTA</span>
+          <div className="mt-3 space-y-1">
+            <div className="flex items-center justify-between text-micro tracking-widest2 uppercase text-ink-500">
+              <span>PORTRAIT</span>
+              <span>ATLANTA</span>
+            </div>
+            {about.portrait.credit && (
+              <p className="text-micro tracking-widest2 uppercase text-ink-500">
+                Photo{" "}
+                <span className="text-ink-800">{about.portrait.credit.name}</span>
+                <span className="mx-2 text-ink-400" aria-hidden>
+                  ·
+                </span>
+                {about.portrait.credit.studio}
+              </p>
+            )}
           </div>
         </div>
 
