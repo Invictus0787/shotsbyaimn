@@ -52,7 +52,7 @@ export default function AboutSection() {
             <div className="text-micro tracking-widest2 uppercase text-ink-500">
               {about.affiliationsLabel}
             </div>
-            <ul className="mt-4 grid grid-cols-1 gap-1 sm:grid-cols-2">
+            <ul className="mt-4 grid grid-cols-1 gap-1">
               {about.affiliations.map((item) => (
                 <li
                   key={item}
