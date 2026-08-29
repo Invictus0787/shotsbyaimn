@@ -60,7 +60,7 @@ export default function ContactSection() {
       aria-label="Contact"
     >
       <SectionHeading
-        eyebrow="INDEX 05"
+        eyebrow="INDEX 04"
         title="CONTACT"
         right={
           <div className="text-micro tracking-widest2 uppercase text-ink-400">

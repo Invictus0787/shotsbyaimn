@@ -11,7 +11,7 @@ export default function AboutSection() {
       aria-label="About"
     >
       <SectionHeading
-        eyebrow="INDEX 04"
+        eyebrow="INDEX 03"
         title="ABOUT"
         tone="light"
       />
