@@ -95,8 +95,7 @@ export const projects: Project[] = [
       alt: "Wide — crowd facing the stage under head-silhouette projections",
       aspect: "landscape",
     },
-    description:
-      "A night of low-end frequencies and stage haze. Selected frames from G Jones' Sound Haven set — the light rig, the LED architecture, and the figure inside it.",
+    description: "Selected frames from G Jones' Sound Haven set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/g-jones/03.png", alt: "G Jones at the Pioneer DJ decks, looking over his shoulder", aspect: "landscape" },
@@ -129,8 +128,7 @@ export const projects: Project[] = [
       alt: "FLY stage — magenta production, LED screens, crowd at Sound Haven",
       aspect: "landscape",
     },
-    description:
-      "Magenta haze, LED architecture, and the figure in the booth. Selected frames from FLY's Sound Haven set — the production, the decks, and the night around them.",
+    description: "Selected frames from FLY's Sound Haven set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/fly/01.png", alt: "FLY at the Pioneer decks, Sound Haven", aspect: "landscape" },
@@ -182,11 +180,10 @@ export const projects: Project[] = [
     medium: "Photography",
     cover: {
       src: "/images/projects/andy-bruh/cover.png",
-      alt: "Andy Bruh at the decks — ANDY BRUH on the LED wall, Aisle 5",
+      alt: "Andy Bruh ripping through vinyl cuts, original production, and bass-heavy hip-hop at Aisle 5",
       aspect: "landscape",
     },
-    description:
-      "Red vinyl, Pioneer decks, and the name on the wall. Selected frames from Andy Bruh's Aisle 5 set — the booth, the crowd, and the LED architecture behind him.",
+    description: "Selected frames from Andy Bruh's Aisle 5 set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/andy-bruh/01.png", alt: "Crowd at Aisle 5 — child on shoulders under disco balls", aspect: "landscape" },
@@ -234,8 +231,7 @@ export const projects: Project[] = [
       alt: "Eptic at the decks looking out over the crowd — Believe Music Hall",
       aspect: "landscape",
     },
-    description:
-      "Lasers, LED skulls, and the name on the wall. Selected frames from Eptic's Believe Music Hall set — the booth, the floor, and the production around him.",
+    description: "Selected frames from Eptic's Believe Music Hall set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/eptic/02.png", alt: "Eptic at Believe Music Hall", aspect: "landscape" },
@@ -276,8 +272,7 @@ export const projects: Project[] = [
       alt: "Truth at the Pioneer decks, green wash — Terminal West",
       aspect: "portrait",
     },
-    description:
-      "Fisheye, red wash, and the name on the wall. Selected frames from Truth's Terminal West set — the booth, the floor, and the light around him.",
+    description: "Selected frames from Truth's Terminal West set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/truth/02.png", alt: "Truth at Terminal West", aspect: "landscape" },
@@ -333,8 +328,7 @@ export const projects: Project[] = [
       alt: "It's Murph at the Pioneer decks, red bar overhead — DEF: Warehouse",
       aspect: "landscape",
     },
-    description:
-      "Red bars, DEF neon, and confetti in the haze. Selected frames from It's Murph at DEF: Warehouse — the booth, the floor, and the light around him.",
+    description: "Selected frames from It's Murph's DEF: Warehouse set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/its-murph/03.png", alt: "It's Murph at the booth, confetti on the decks — DEF: Warehouse", aspect: "landscape" },
