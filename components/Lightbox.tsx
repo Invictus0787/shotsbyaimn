@@ -100,7 +100,7 @@ export default function Lightbox({
                   width={1024}
                   height={1024}
                   unoptimized
-                  className="h-auto max-h-[calc(100svh-9rem)] w-auto max-w-[min(100%,50rem)] object-contain"
+                  className="h-auto max-h-[calc(100svh-5rem)] w-auto max-w-[min(100%,50rem)] object-contain"
                   priority
                 />
               </motion.div>
@@ -127,18 +127,6 @@ export default function Lightbox({
                 NEXT →
               </span>
             </button>
-          </div>
-
-          {/* Caption bar */}
-          <div className="flex flex-col gap-2 border-t border-white/5 px-5 py-4 md:flex-row md:items-center md:justify-between md:px-8">
-            <div className="min-w-0 text-tiny tracking-widest2 uppercase text-ink-200">
-              {current.meta ?? current.alt}
-            </div>
-            {current.caption && (
-              <div className="truncate text-tiny tracking-widest2 uppercase text-ink-400">
-                {current.caption}
-              </div>
-            )}
           </div>
         </motion.div>
       )}
