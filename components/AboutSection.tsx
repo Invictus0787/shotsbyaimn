@@ -54,11 +54,21 @@ export default function AboutSection() {
             </div>
             <ul className="mt-4 grid grid-cols-1 gap-1">
               {about.affiliations.map((item) => (
-                <li
-                  key={item}
-                  className="border-t border-black/10 py-2 text-tiny tracking-widest2 uppercase text-ink-800"
-                >
-                  {item}
+                <li key={item.name} className="border-t border-black/10">
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center justify-between gap-4 py-3 text-tiny tracking-widest2 uppercase text-ink-800 transition-colors duration-300 hover:text-ink-900"
+                  >
+                    <span className="link-underline">{item.name}</span>
+                    <span
+                      className="translate-x-0 text-ink-400 opacity-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:text-ink-800 group-hover:opacity-100"
+                      aria-hidden
+                    >
+                      ↗
+                    </span>
+                  </a>
                 </li>
               ))}
             </ul>

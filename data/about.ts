@@ -22,7 +22,13 @@ export const about = {
   ],
   affiliationsLabel: "ASSOCIATED WITH",
   affiliations: [
-    "Riverbeats Dance",
-    "Festival Squad",
+    {
+      name: "Riverbeats Dance",
+      href: "https://riverbeats.life/",
+    },
+    {
+      name: "Festival Squad",
+      href: "https://festivalsquad.com/",
+    },
   ],
 };
