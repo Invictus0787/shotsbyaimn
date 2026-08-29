@@ -1,0 +1,3 @@
+Drop local interview / film files here (e.g. ravenscoon-interview.mov).
+These are gitignored — too large for GitHub / Vercel static hosting.
+The site reads them from /videos/<filename> as listed in data/projects.ts.

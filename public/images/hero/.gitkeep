@@ -1,0 +1,3 @@
+Hero collage frames live in /public/images/hero/collage (01–32.jpg).
+A baked color-wash sits at /public/images/hero/wash.jpg.
+The index background is assembled in components/HeroCollage.tsx.

@@ -1,0 +1,2 @@
+Drop your about/portrait image here.
+Then update /data/about.ts to point at "/images/about/portrait.jpg" (or similar).

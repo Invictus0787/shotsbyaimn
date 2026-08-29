@@ -1,0 +1,4 @@
+Drop images for the G Jones project here. Suggested filenames:
+- cover.jpg
+- 01.jpg, 02.jpg, 03.jpg, ...
+Then update /data/projects.ts to reference "/images/projects/g-jones/cover.jpg" etc.
