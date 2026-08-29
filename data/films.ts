@@ -26,7 +26,7 @@ export const films: Film[] = [
     event: "Artist Interview",
     year: "2026",
     thumbnail: "/images/projects/ravenscoon/cover.jpg",
-    videoUrl: "/videos/ravenscoon-interview.mov",
+    videoUrl: "/videos/ravenscoon-interview.mp4",
     description: "Long-form artist interview.",
   },
   {

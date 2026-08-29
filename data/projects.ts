@@ -378,7 +378,7 @@ export const projects: Project[] = [
     description:
       "A long-form conversation with Ravenscoon — process, sound design, and the space between the underground and the stage.",
     video: {
-      url: "/videos/ravenscoon-interview.mov",
+      url: "/videos/ravenscoon-interview.mp4",
       thumbnail: "/images/projects/ravenscoon/cover.jpg",
     },
     credits: [
