@@ -374,10 +374,38 @@ export const projects: Project[] = [
     video: {
       url: "/videos/ravenscoon-interview.mp4",
       thumbnail: "/images/projects/ravenscoon/cover.jpg",
+      duration: "09:22",
     },
     credits: [
       { role: "Film", name: "Aymane Rouchdi" },
       { role: "Artist", name: "Ravenscoon" },
+      { role: "Location", name: "Okeechobee Music Festival" },
+    ],
+  },
+  {
+    slug: "onhell",
+    title: "ONHELL",
+    artist: "Onhell",
+    event: "Artist Interview",
+    location: "Okeechobee Music Festival",
+    year: "2026",
+    medium: "Film / Editorial",
+    featured: true,
+    cover: {
+      src: "/images/projects/onhell/cover.jpg",
+      alt: "Onhell — artist interview",
+      aspect: "portrait",
+    },
+    description:
+      "A long-form conversation with Onhell — recorded at Okeechobee Music Festival, between the underground and the season ahead.",
+    video: {
+      url: "/videos/onhell-interview.mp4",
+      thumbnail: "/images/projects/onhell/cover.jpg",
+      duration: "12:10",
+    },
+    credits: [
+      { role: "Film", name: "Aymane Rouchdi" },
+      { role: "Artist", name: "Onhell" },
       { role: "Location", name: "Okeechobee Music Festival" },
     ],
   },

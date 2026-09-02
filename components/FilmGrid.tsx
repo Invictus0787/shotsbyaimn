@@ -24,11 +24,11 @@ export default function FilmGrid() {
 
       <div className="grid grid-cols-1 gap-x-6 gap-y-14 md:grid-cols-6">
         {films.map((film, i) => {
-          // Alternate large / small tiles for cinematic rhythm
-          const large = i === 0;
-          const colClass = large
-            ? "md:col-span-6"
-            : i === 1
+          // Lead interviews sit as an equal pair; remaining tiles keep the 4/2 rhythm
+          const pairLead = i < 2 && films.length >= 2;
+          const colClass = pairLead
+            ? "md:col-span-3"
+            : i % 2 === 0
             ? "md:col-span-4"
             : "md:col-span-2";
 
@@ -49,7 +49,7 @@ export default function FilmGrid() {
                   src={film.thumbnail}
                   alt={film.title}
                   fill
-                  sizes={large ? "100vw" : "50vw"}
+                  sizes={pairLead ? "(min-width: 768px) 50vw, 100vw" : "50vw"}
                   className="object-cover transition-transform duration-[600ms] ease-editorial group-hover:scale-[1.02]"
                 />
                 <div className="pointer-events-none absolute inset-0 bg-black/10 transition-opacity duration-300 group-hover:bg-black/20" />

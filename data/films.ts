@@ -28,6 +28,18 @@ export const films: Film[] = [
     thumbnail: "/images/projects/ravenscoon/cover.jpg",
     videoUrl: "/videos/ravenscoon-interview.mp4",
     description: "Long-form artist interview.",
+    duration: "09:22",
+  },
+  {
+    slug: "onhell",
+    title: "ONHELL",
+    artist: "Onhell",
+    event: "Artist Interview",
+    year: "2026",
+    thumbnail: "/images/projects/onhell/cover.jpg",
+    videoUrl: "/videos/onhell-interview.mp4",
+    description: "Long-form artist interview.",
+    duration: "12:10",
   },
   {
     slug: "sound-haven-recap",

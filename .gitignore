@@ -36,6 +36,7 @@ public/videos/*.mov
 public/videos/*.mp4
 !public/videos/.gitkeep
 !public/videos/ravenscoon-interview.mp4
+!public/videos/onhell-interview.mp4
 
 # IDE
 .vscode
