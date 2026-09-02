@@ -358,9 +358,9 @@ export const projects: Project[] = [
   {
     slug: "daggz",
     title: "DAGGZ",
-    artist: "Sound Haven & Okeechobee 2026",
-    event: "Sound Haven / Okeechobee",
-    location: "Jaceland, TN / Okeechobee, FL",
+    artist: "Sound Haven Music Festival 2026",
+    event: "Sound Haven",
+    location: "Jaceland, TN",
     year: "2026",
     medium: "Photography",
     cover: {
@@ -368,7 +368,7 @@ export const projects: Project[] = [
       alt: "Daggz arms raised toward the hill — golden hour",
       aspect: "landscape",
     },
-    description: "Selected frames from Daggz's Sound Haven and Okeechobee sets.",
+    description: "Selected frames from Daggz's Sound Haven set.",
     galleryLayout: "plates",
     images: [
       { src: "/images/projects/daggz/01.png", alt: "Daggz at the decks, sunset flare", aspect: "portrait" },
@@ -385,8 +385,8 @@ export const projects: Project[] = [
     credits: [
       { role: "Photography", name: "Aymane Rouchdi" },
       { role: "Artist", name: "Daggz" },
-      { role: "Event", name: "Sound Haven, Okeechobee" },
-      { role: "Location", name: "Jaceland, TN / Okeechobee, FL" },
+      { role: "Event", name: "Sound Haven" },
+      { role: "Location", name: "Jaceland, TN" },
     ],
   },
   {
