@@ -356,6 +356,40 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "daggz",
+    title: "DAGGZ",
+    artist: "Okeechobee Music Festival 2026",
+    event: "Okeechobee",
+    location: "Okeechobee, FL",
+    year: "2026",
+    medium: "Photography",
+    cover: {
+      src: "/images/projects/daggz/cover.png",
+      alt: "Daggz arms raised toward the hill — golden hour, Okeechobee",
+      aspect: "landscape",
+    },
+    description: "Selected frames from Daggz's Okeechobee set.",
+    galleryLayout: "plates",
+    images: [
+      { src: "/images/projects/daggz/01.png", alt: "Daggz at the decks, sunset flare — Okeechobee", aspect: "portrait" },
+      { src: "/images/projects/daggz/02.png", alt: "From behind Daggz — Pioneer decks, crowd on the hill", aspect: "landscape" },
+      { src: "/images/projects/daggz/03.png", alt: "Saucer LED booth at night — crosshair panels, red wash", aspect: "landscape" },
+      { src: "/images/projects/daggz/04.png", alt: "From behind Daggz looking out over the hill", aspect: "portrait" },
+      { src: "/images/projects/daggz/05.png", alt: "From the booth — Pioneer decks, crowd and tents", aspect: "landscape" },
+      { src: "/images/projects/daggz/06.png", alt: "Saucer booth at dusk — starburst LEDs, crowd at the rail", aspect: "landscape" },
+      { src: "/images/projects/daggz/07.png", alt: "Saucer booth at night — orange LED, red haze", aspect: "landscape" },
+      { src: "/images/projects/daggz/08.png", alt: "Pyramid visuals on the saucer, crowd at dusk", aspect: "landscape" },
+      { src: "/images/projects/daggz/09.png", alt: "From behind Daggz — backward cap, hill packed with the crowd", aspect: "landscape" },
+      { src: "/images/projects/daggz/10.png", alt: "Crystalline LED booth, late afternoon — Okeechobee", aspect: "landscape" },
+    ],
+    credits: [
+      { role: "Photography", name: "Aymane Rouchdi" },
+      { role: "Artist", name: "Daggz" },
+      { role: "Event", name: "Okeechobee" },
+      { role: "Location", name: "Okeechobee, FL" },
+    ],
+  },
+  {
     slug: "ravenscoon",
     title: "RAVENSCOON",
     artist: "Ravenscoon",
@@ -409,30 +443,6 @@ export const projects: Project[] = [
       { role: "Location", name: "Okeechobee Music Festival" },
     ],
   },
-  {
-    slug: "portraits",
-    title: "PORTRAITS",
-    event: "Ongoing",
-    year: "—",
-    medium: "Portraiture",
-    galleryLayout: "plates",
-    cover: {
-      src: "/images/projects/portraits/cover.jpg",
-      alt: "Portrait",
-      aspect: "landscape",
-    },
-    description: "An open portrait series of artists, producers, and collaborators.",
-    images: [
-      // caption: leave blank — fill in each artist ID yourself
-      { src: "/images/projects/portraits/01.png", alt: "Portrait", aspect: "portrait", caption: "G Jones" },
-      { src: "/images/projects/portraits/02.png", alt: "Portrait", aspect: "portrait", caption: "Andy Bruh" },
-      { src: "/images/projects/portraits/03.png", alt: "Portrait", aspect: "portrait", caption: "Mythm" },
-      { src: "/images/projects/portraits/04.png", alt: "Portrait", aspect: "portrait", caption: "Daggz" },
-      { src: "/images/projects/portraits/05.png", alt: "Portrait", aspect: "portrait", caption: "FLY" },
-      { src: "/images/projects/portraits/06.png", alt: "Portrait", aspect: "portrait", caption: "Eptic" },
-      { src: "/images/projects/portraits/07.png", alt: "Portrait", aspect: "portrait", caption: "Truth" },
-    ],
-  },
 ];
 
 // Helper for the [slug] route.
@@ -442,4 +452,9 @@ export function getProjectBySlug(slug: string): Project | undefined {
 
 export function getAllProjectSlugs(): string[] {
   return projects.map((p) => p.slug);
+}
+
+/** Homepage /work index — photography sets only, no featured editorials. */
+export function getWorkProjects(): Project[] {
+  return projects.filter((p) => !p.featured);
 }

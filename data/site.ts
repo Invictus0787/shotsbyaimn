@@ -39,6 +39,7 @@ export const site = {
 // ─────────────────────────────────────────────────────────────
 export const nav: { label: string; href: string; external?: boolean }[] = [
   { label: "WORK", href: "/work" },
+  { label: "PORTRAITS", href: "/portraits" },
   { label: "EDITORIALS", href: "/editorial" },
   { label: "ABOUT", href: "/about" },
   { label: "CONTACT", href: "/contact" },

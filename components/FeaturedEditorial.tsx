@@ -18,11 +18,11 @@ export default function FeaturedEditorial() {
   return (
     <section
       id="editorial"
-      className="border-t border-white/5 bg-ink-950 px-5 py-24 md:px-8 md:py-32"
+      className="border-t border-white/5 bg-ink-950 px-5 pb-24 pt-12 md:px-8 md:pb-32 md:pt-14"
       aria-label="Featured editorial projects"
     >
       <SectionHeading
-        eyebrow="INDEX 02"
+        eyebrow="INDEX 03"
         title="EDITORIAL"
         viewAllHref="/editorial"
       />

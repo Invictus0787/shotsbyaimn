@@ -1,12 +1,12 @@
 import ProjectCard from "./ProjectCard";
 import SectionHeading from "./SectionHeading";
-import { projects } from "@/data/projects";
+import { getWorkProjects } from "@/data/projects";
 
 export default function SelectedWork() {
-  const list = projects.filter((p) => !p.featured);
+  const list = getWorkProjects();
 
   return (
-    <section id="work" className="px-5 py-24 md:px-8 md:py-32">
+    <section id="work" className="px-5 pt-24 pb-12 md:px-8 md:pt-32 md:pb-14">
       <SectionHeading
         eyebrow="INDEX 01"
         title="SELECTED WORK"

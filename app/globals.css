@@ -65,6 +65,23 @@ img {
   outline-offset: 2px;
 }
 
+/* Horizontal portraits strip — thin hairline track */
+.portraits-track {
+  scrollbar-width: thin;
+  scrollbar-color: #1d1d22 transparent;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+.portraits-track::-webkit-scrollbar {
+  height: 2px;
+}
+.portraits-track::-webkit-scrollbar-track {
+  background: transparent;
+}
+.portraits-track::-webkit-scrollbar-thumb {
+  background: #2a2a31;
+}
+
 /* Utility: editorial underline for text-links */
 .link-underline {
   background-image: linear-gradient(currentColor, currentColor);

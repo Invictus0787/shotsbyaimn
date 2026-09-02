@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import ProjectCard from "@/components/ProjectCard";
-import { projects } from "@/data/projects";
+import { getWorkProjects } from "@/data/projects";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function WorkPage() {
-  const list = projects.filter((p) => !p.featured);
+  const list = getWorkProjects();
 
   return (
     <div className="px-5 pt-28 pb-24 md:px-8 md:pt-32 md:pb-32">
